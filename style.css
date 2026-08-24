@@ -1,1 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+}
 
+.cabecalho {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.conteudo {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.botoes {
+    margin-top: 15px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.midia {
+    display: flex;
+    gap: 10px;
+}
+
+.midia img {
+    width: 45%;
+    border-radius: 5px;
+}
+
+video {
+    width: 70%;
+    margin-top: 20px;
+}
